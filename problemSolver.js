@@ -61,7 +61,7 @@ function problemThree() {
     let response = document.getElementById("profPizza")
 
     let msg = "Students: " + numStudent
-    msg += "\nRector: " + professorsRector
+    msg += "    Rector: " + professorsRector
 
     console.log(msg)
     response.textContent = msg
